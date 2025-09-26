@@ -1,0 +1,19 @@
+header .row .item{
+    max-width: 350px;
+}
+section .row .item{
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    filter: grayscale(100%);
+    transition-duration: .5s;
+    margin: auto;
+}
+section .row .item:hover{
+    filter: grayscale(0);
+}
+section .row .item .box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
